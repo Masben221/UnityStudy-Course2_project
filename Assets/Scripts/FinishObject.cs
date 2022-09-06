@@ -8,7 +8,7 @@ public class FinishObject : MonoBehaviour
   [SerializeField] AudioClip finishlySound;
   void Start()
     {
-       audioSource=GetComponent<AudioSource>();
+      audioSource=GetComponent<AudioSource>();
     }
 
     void Update()
@@ -17,15 +17,15 @@ public class FinishObject : MonoBehaviour
     }
 void OnCollisionEnter (Collision collision) 
     { 
-       Finish (collision.gameObject);
+      Finish (collision.gameObject);
     }
    
 void Finish(GameObject LandingPadObj)
   {
     if(audioSource.isPlaying==false)
-    {
-    audioSource.PlayOneShot(finishlySound);
-    }
+     {
+      audioSource.PlayOneShot(finishlySound);
+     }
     LandingPadObj.GetComponent<BoxCollider>().enabled = false;
   }
 }

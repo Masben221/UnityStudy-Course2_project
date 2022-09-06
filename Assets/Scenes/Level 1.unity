@@ -248,12 +248,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 886216466}
-  m_RootOrder: 0
+  m_Father: {fileID: 965995812}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -102.59999, y: -926.73004}
+  m_AnchoredPosition: {x: 214, y: 69}
   m_SizeDelta: {x: 316.881, y: 83.585}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &88724432
@@ -525,12 +525,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 886216466}
-  m_RootOrder: 2
+  m_Father: {fileID: 965995812}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1308.3662, y: -29.212}
+  m_AnchoredPosition: {x: -154.86414, y: -45.759056}
   m_SizeDelta: {x: 308.16, y: 69.451}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &541612225
@@ -897,12 +897,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 886216466}
+  m_Father: {fileID: 965995812}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -127, y: -29.212}
+  m_AnchoredPosition: {x: 152.45645, y: -45.759056}
   m_SizeDelta: {x: 224.4999, y: 58.424}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &739428466
@@ -1079,12 +1079,9 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 88724431}
-  - {fileID: 739428465}
-  - {fileID: 541612224}
+  m_Children: []
   m_Father: {fileID: 965995812}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -1320,6 +1317,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 541612224}
+  - {fileID: 739428465}
+  - {fileID: 88724431}
   - {fileID: 886216466}
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -1756,6 +1756,10 @@ PrefabInstance:
       propertyPath: energyText
       value: 
       objectReference: {fileID: 886216467}
+    - target: {fileID: 1738827054, guid: 7e87cd3c4c7fdb841a6726763298fc02, type: 3}
+      propertyPath: energyApply
+      value: 350
+      objectReference: {fileID: 0}
     - target: {fileID: 1738827054, guid: 7e87cd3c4c7fdb841a6726763298fc02, type: 3}
       propertyPath: energyTotal
       value: 600

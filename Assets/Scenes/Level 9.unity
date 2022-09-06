@@ -268,16 +268,24 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7307460130934717530, guid: 98f66c4a667ab4a4788d01418da663d1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.1370249
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307460130934717530, guid: 98f66c4a667ab4a4788d01418da663d1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 7.3
+      value: 21.216005
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307460130934717530, guid: 98f66c4a667ab4a4788d01418da663d1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15.810924
       objectReference: {fileID: 0}
     - target: {fileID: 7307460130934717530, guid: 98f66c4a667ab4a4788d01418da663d1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -36.2
+      value: -38.34
       objectReference: {fileID: 0}
     - target: {fileID: 7307460130934717530, guid: 98f66c4a667ab4a4788d01418da663d1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.308573
+      value: 11.5
       objectReference: {fileID: 0}
     - target: {fileID: 7307460130934717530, guid: 98f66c4a667ab4a4788d01418da663d1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -338,6 +346,14 @@ MonoBehaviour:
   movePosition: {x: 0, y: 0, z: -15}
   moveSpeed: 0.5
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!1001 &236662572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -436,6 +452,14 @@ MonoBehaviour:
   movePosition: {x: 0, y: 0, z: 15}
   moveSpeed: 0.5
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!4 &314078084 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7307460130934717530, guid: 98f66c4a667ab4a4788d01418da663d1, type: 3}
@@ -606,6 +630,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1751640513}
+  - {fileID: 836921560}
+  - {fileID: 798459659}
   - {fileID: 2069775064}
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -959,6 +986,14 @@ MonoBehaviour:
   movePosition: {x: 0, y: -25, z: 0}
   moveSpeed: 0.3
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!4 &771345277 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7307460130934717530, guid: 98f66c4a667ab4a4788d01418da663d1, type: 3}
@@ -1062,16 +1097,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 798459658}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2069775064}
+  m_Father: {fileID: 626095368}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -40, y: -950}
+  m_AnchoredPosition: {x: 180.85999, y: 43}
   m_SizeDelta: {x: 328.843, y: 75.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &798459660
@@ -1215,16 +1250,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836921559}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2069775064}
+  m_Father: {fileID: 626095368}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1396.8, y: -47.1}
+  m_AnchoredPosition: {x: -132, y: -55.492897}
   m_SizeDelta: {x: 310.577, y: 74.624}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &836921561
@@ -1723,6 +1758,14 @@ MonoBehaviour:
   movePosition: {x: 0, y: 0, z: -15}
   moveSpeed: 0.5
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!1 &1171113000 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7307460130934717526, guid: 98f66c4a667ab4a4788d01418da663d1, type: 3}
@@ -1748,6 +1791,14 @@ MonoBehaviour:
   movePosition: {x: 0, y: 15, z: 0}
   moveSpeed: 0.5
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!1 &1180992413 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7307460130934717526, guid: 98f66c4a667ab4a4788d01418da663d1, type: 3}
@@ -1768,6 +1819,14 @@ MonoBehaviour:
   movePosition: {x: 15, y: 0, z: 0}
   moveSpeed: 0.4
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!4 &1180992418 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7307460130934717530, guid: 98f66c4a667ab4a4788d01418da663d1, type: 3}
@@ -1866,6 +1925,14 @@ MonoBehaviour:
   movePosition: {x: 0, y: 15, z: 0}
   moveSpeed: 0.3
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!4 &1313477639 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6748124936377282852, guid: 9e9e2dc685f63014b9a560a61bc31832, type: 3}
@@ -1912,7 +1979,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6748124936377282852, guid: 9e9e2dc685f63014b9a560a61bc31832, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -39.815254
+      value: -43.1
       objectReference: {fileID: 0}
     - target: {fileID: 6748124936377282852, guid: 9e9e2dc685f63014b9a560a61bc31832, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2128,6 +2195,14 @@ MonoBehaviour:
   movePosition: {x: 0, y: -15, z: 0}
   moveSpeed: 0.5
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!1 &1608192949 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6795168075930460860, guid: 526e4b79c389d994d984cf7ef2e773ef, type: 3}
@@ -2299,16 +2374,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751640512}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 2069775064}
+  m_Father: {fileID: 626095368}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -110, y: -26.539}
+  m_AnchoredPosition: {x: 110.859985, y: -34.931984}
   m_SizeDelta: {x: 204, y: 53.214}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1751640514
@@ -2370,7 +2445,7 @@ PrefabInstance:
       objectReference: {fileID: 2069775065}
     - target: {fileID: 1738827054, guid: 7e87cd3c4c7fdb841a6726763298fc02, type: 3}
       propertyPath: energyApply
-      value: 200
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 1738827054, guid: 7e87cd3c4c7fdb841a6726763298fc02, type: 3}
       propertyPath: energyToAdd
@@ -2573,6 +2648,14 @@ MonoBehaviour:
   movePosition: {x: 0, y: 0, z: 15}
   moveSpeed: 0.5
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!1 &1950722171 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7307460130934717526, guid: 98f66c4a667ab4a4788d01418da663d1, type: 3}
@@ -2598,6 +2681,14 @@ MonoBehaviour:
   movePosition: {x: 40, y: 0, z: 0}
   moveSpeed: 0.6
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!1 &2002724879 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6776974180867769212, guid: 526e4b79c389d994d984cf7ef2e773ef, type: 3}
@@ -2656,6 +2747,14 @@ MonoBehaviour:
   movePosition: {x: -18, y: 0, z: 0}
   moveSpeed: 0.4
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!4 &2016398462 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7307460130934717530, guid: 98f66c4a667ab4a4788d01418da663d1, type: 3}
@@ -2689,12 +2788,9 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1751640513}
-  - {fileID: 836921560}
-  - {fileID: 798459659}
+  m_Children: []
   m_Father: {fileID: 626095368}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}

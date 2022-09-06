@@ -148,16 +148,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110820481}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1410678456}
+  m_Father: {fileID: 1570978487}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -114.88753, y: -25.06}
+  m_AnchoredPosition: {x: 123.81258, y: -32.7993}
   m_SizeDelta: {x: 213.0249, y: 50.121}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &110820483
@@ -373,16 +373,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 200930798}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1410678456}
+  m_Father: {fileID: 1570978487}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1356.6973, y: -42.420998}
+  m_AnchoredPosition: {x: -164.60266, y: -50.160297}
   m_SizeDelta: {x: 322.8494, y: 84.8417}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &200930800
@@ -637,6 +637,14 @@ MonoBehaviour:
   movePosition: {x: -14, y: 10, z: 0}
   moveSpeed: 0.5
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!1001 &692915096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -908,6 +916,14 @@ MonoBehaviour:
   movePosition: {x: 0, y: 0, z: 20}
   moveSpeed: 0.4
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!1001 &917089104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1593,12 +1609,9 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 110820482}
-  - {fileID: 200930799}
-  - {fileID: 1597261570}
+  m_Children: []
   m_Father: {fileID: 1570978487}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -1672,6 +1685,14 @@ MonoBehaviour:
   movePosition: {x: 0, y: -11, z: 0}
   moveSpeed: 0.5
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!1001 &1486949558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1893,6 +1914,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 110820482}
+  - {fileID: 200930799}
+  - {fileID: 1597261570}
   - {fileID: 1410678456}
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -1927,16 +1951,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1597261569}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1410678456}
+  m_Father: {fileID: 1570978487}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -56.547, y: -936}
+  m_AnchoredPosition: {x: 182.15302, y: 52}
   m_SizeDelta: {x: 329.706, y: 72.035}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1597261571
@@ -2114,6 +2138,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1410678457}
     - target: {fileID: 1738827054, guid: 7e87cd3c4c7fdb841a6726763298fc02, type: 3}
+      propertyPath: energyApply
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738827054, guid: 7e87cd3c4c7fdb841a6726763298fc02, type: 3}
       propertyPath: energyToAdd
       value: 1500
       objectReference: {fileID: 0}
@@ -2246,6 +2274,14 @@ MonoBehaviour:
   movePosition: {x: 0, y: 11, z: 0}
   moveSpeed: 0.5
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!1001 &2012607997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2524,6 +2560,14 @@ MonoBehaviour:
   movePosition: {x: 18, y: 10, z: 0}
   moveSpeed: 0.5
   moveProgress: 0
+  rotSpeedX: 0
+  rotSpeedY: 0
+  rotSpeedZ: 0
+  rotSpeed: 0
+  rotX: 0
+  rotY: 0
+  rotZ: 0
+  rotProgress: 0
 --- !u!1001 &1321060153505851225
 PrefabInstance:
   m_ObjectHideFlags: 0
